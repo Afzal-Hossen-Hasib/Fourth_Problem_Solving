@@ -79,21 +79,21 @@
         </main>
 
         <!-- Question Section  -->
-        <section class="container w-50 mt-4 mb-4 p-4 rounded question-section">
+        <section id="question-section" class="container w-50 mt-4 mb-4 p-4 rounded qna-section">
             <div class="accordion" id="accordionPanelsStayOpenExample">
                 <div class="accordion-item mb-3 border border-2">
                   <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                     <button class="accordion-button fw-bold fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                        How Does Javascript Work ?
+                        <span class="ans-text">How Does Javascript Work ?</span>
                     </button>
                   </h2>
                   <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                     <div class="accordion-body">
-                      <strong class="fw-bold fs-6 text-primary">Ans :</strong> JavaScript is an Interpreted Programming Language. It's Used For Interect With Content In Web Browser. Javascript used a Chrome Browser Engine To Run Program. That Name Is "V8" Engine. <br>
-                      Some Things Happend When Run Javascript : <br>
-                      Number 1 (Parser) : This Is The First Step Of Javascript Engine. <br> 
-                      Number 2 (AST) : Then It Convert To AST (Abstract Syntex Tree). It Creats The Data Structure. <br>
-                      Number 3 (Machine Code) : Then Javascript Engine Converts The Javascript Code Into The Machine Code. <br>
+                      <strong class="fw-bold fs-6 ans-text">Answer :</strong> JavaScript is an Interpreted Programming Language. It's Used For Interect With Content In Web Browser. Javascript used a Chrome Browser Engine To Run Program. That Name Is "V8" Engine. <br>
+                      Javascript Run Steb By Step : <br>
+                      <span class="fw-bold">Step-1 (Parser) :</span> This Is The First Step Of Javascript Engine. <br> 
+                      <span class="fw-bold">Step-2 (AST) :</span> Then It Convert To AST (Abstract Syntex Tree). It Creats The Data Structure. <br>
+                      <span class="fw-bold">Step-3 (Machine Code) :</span> Then Javascript Engine Converts The Javascript Code Into The Machine Code. <br>
                       Finally The Converted Code Sent To The System For Execution And Finally The Code Run.
                     </div>
                   </div>
@@ -101,27 +101,30 @@
                 <div class="accordion-item mb-3 border border-2">
                   <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                     <button class="accordion-button collapsed fw-bold fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                        What Does Javascript Event Loop Do ?
+                        <span class="ans-text">What Does Javascript Event Loop Do ?</span>
                     </button>
                   </h2>
                   <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                     <div class="accordion-body">
-                        <strong class="fw-bold fs-6 text-primary">Ans :</strong> JavaScript has a runtime model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks.
+                        <strong class="fw-bold fs-6 ans-text"> Answer :</strong> The Event Loop Is One Of The Most Important Aspects To Understand About Javascript. JavaScript Has A Runtime Model Based On An Event Loop. When JavaScript Runs It Has Some Things : <br>
+                        <span class="fw-bold">Number-1 (Heap) :</span> Heap Is The Region Where The Objects Are Allocated An Unstructured Region Of Memory. <br>
+                        <span class="fw-bold">Number-2 (Stack) :</span> stack Work Sequentially. A Stack Is A Data Structure That Holds A List Of Elements. <br>
+                        <span class="fw-bold">Number-3 (Queue) :</span> Queue Show Massage When The Stack Frame Is Celar. Queue Used To Maintian Function Calls Asynchronous. 
                     </div>
                   </div>
                 </div>
                 <div class="accordion-item border border-2">
                   <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                     <button class="accordion-button collapsed fw-bold fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                        what is the difference between local Storage & Session Storage?
+                        <span class="ans-text">what is the difference between local Storage & Session Storage?</span>
                     </button>
                   </h2>
                   <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                     <div class="accordion-body">
-                        <strong class="fw-bold fs-6 text-primary">Ans :</strong> The Difference Between  localStorage And SessionStorage : <br>
-                        localStorage : <br>
+                        <strong class="fw-bold fs-6 ans-text">Answer :</strong> The Difference Between  localStorage And SessionStorage : <br>
+                        <span class="fw-bold fs-6">localStorage :</span> <br>
                         Localstorage Shared Between All Tabs And Window From The Same Orgin. The Local Storage Helps Store Data With No Expiration Date. The Data Will Not Be Deleted Event The Browser Is Closed. It Is Possible To Obtain Data Any Time. <br>
-                        SessionStorage : <br>
+                        <span class="fw-bold fs-6">SessionStorage :</span> <br>
                         Sessionstorage Is Similar To Localstorage. It Stores Data Only For One Time. The Data Is Deletd When The User Closes The Browser Tab. Once The User Closes The Window The Data Is Lost. 
                     </div>
                   </div>

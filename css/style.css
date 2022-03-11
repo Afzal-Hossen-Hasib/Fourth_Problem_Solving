@@ -238,11 +238,11 @@ img {
   color: gray;
 }
 
-.question-section {
+.qna-section {
   box-shadow: rgba(66, 65, 65, 0.22) 0px 15px 12px, rgba(66, 65, 65, 0.22) 0px 15px 12px;
 }
 
-.text-button {
+.ans-text {
   color: tomato;
 }
 
